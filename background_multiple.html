@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+    background-image: ;
+  }
+
+
+  div#section1 {
+    background-image: url('img/background_sample.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  div#section2 {
+    background-image: url('img/background_sample2.jpg');
+    background-repeat: repeat-y;
+    /*background-size: cover;*/
+    background-attachment: fixed;
+  }
+
+  div#section3 {
+    /*background-image: radial-gradient(red, orange, yellow, green, blue, violet, purple);*/
+    background-image: linear-gradient(salmon,white);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+  }
+
+  p {
+    background-color: white;
+    border: solid 2px red;
+  }
+
+  div.blank {
+    height: 500px;
+    background: none;
+  }
+
+  div.content1 {
+    height: 300px;
+    background-color: DodgerBlue;
+  }
+
+  div.content2 {
+    height: 150px;
+    background-color: Violet;
+  }
+</style>
+</head>
+
+<body>
+	<div id="section1">
+    <p>This is a paragraph of text</p>
+    <div class="blank"></div>
+    <div class="content1">This is a second paragraph of text</div>
+    <div class="blank"></div>
+  </div>
+
+  <div id="section2">
+    <p>This is a third paragraph of text</p>
+    <div class="blank"></div>
+    <div class="content2">This is a third paragraph of text</div>
+    <div class="blank"></div>
+    <div class="content2">This is a third paragraph of text</div>
+  </div>
+
+  <div id="section3">
+    <p>This is a third paragraph of text</p>
+    <div class="blank"></div>
+    <div class="content2">This is a third paragraph of text</div>
+    <div class="blank"></div>
+    <div class="content2">This is a third paragraph of text</div>
+  </div>
+
+  <a href="#section1"><i class="fa fa-arrow-circle-up" style="font-size: 4em;"></i></a>
+
+  <button id="nextPage">
+    <a href = "background_multiple.html">Multiple Backgrounds In A Page</a>
+  </button>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+	background-color: #e6eeff;
+}
+
+button#nextPage {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+button a {
+	font-size: 18px;
+}
+
+#nav_to_top {
+	background: none;
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 25px;
+}
+
+i {
+	color: #0ff;
+	position: fixed;
+	bottom: 50px;
+	right: 25px;
+}

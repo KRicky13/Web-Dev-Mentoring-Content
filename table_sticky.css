@@ -1,0 +1,27 @@
+table {
+  margin: auto;
+  margin-bottom: 20em;
+}
+
+table, td, th {
+  border: solid white 3px;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+th {
+  padding: 1.5em 1.2em;
+  font-size: 1.4em;
+  background-color: #0a0;
+  position: sticky;
+  top: 110px;
+}
+
+td {
+  padding: 1.2em 1.5em;
+  height: 3em;
+  vertical-align: center;
+}
